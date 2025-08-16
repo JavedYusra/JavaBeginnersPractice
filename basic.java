@@ -47,8 +47,24 @@ public class basic {
         System.out.println("The increment of beta is " + inc +
          " and the decrement of gamma is " + dec);
 
+         // Assignment operators include =, +=, -=, *=, /=, %=
 
+         int a = 3;
+         int b = 1;
+         a += b;
+         a -= b;
+         a *= b;
+         a /= b;
+         a %= b;
 
+         //comparison operators ( comparison, reuslt in true/false..they are often used in conditions)
 
+        if(a>b) {
+            System.out.println("a is greater than b");
+        } else if(a < b) {
+            System.out.println("a is less than b");
+        } else if(a == b) {
+            System.out.println("a is equal to b");
+        }
     }
 }
