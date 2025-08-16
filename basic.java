@@ -51,13 +51,17 @@ public class basic {
 
          int a = 3;
          int b = 1;
+         int c = 2;
          a += b;
          a -= b;
          a *= b;
          a /= b;
          a %= b;
 
-         //comparison operators ( comparison, reuslt in true/false..they are often used in conditions)
+         //comparison operators ( comparison, result in true/false..
+        //  they are often used in conditions)
+        // also called relational operators
+        // also called boolean expressions
 
         if(a>b) {
             System.out.println("a is greater than b");
@@ -65,6 +69,20 @@ public class basic {
             System.out.println("a is less than b");
         } else if(a == b) {
             System.out.println("a is equal to b");
+        }
+
+        // LOGICAL OPERATORS
+        // used to combine boolean expression
+        if(a>b && b>c) {
+            System.out.println("Both conditions are true");
+        } else if (a>b || b>c) {
+            System.out.println("At least one condition is true");
+         } else if(a != 5){
+            System.out.println("a is not equal to 5");
+         }
+         else {
+            System.out.println("Neither condition is true");
+            
         }
     }
 }
