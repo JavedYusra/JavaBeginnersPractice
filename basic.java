@@ -84,5 +84,10 @@ public class basic {
             System.out.println("Neither condition is true");
             
         }
+
+        // Ternary Operator
+        int temperature = 25;
+        String weather = (temperature > 20) ? "Warm" : "Cold";
+        System.out.println("The temperature today is " + weather);
     }
 }
